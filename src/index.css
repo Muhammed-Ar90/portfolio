@@ -127,7 +127,7 @@ header{
 @media (max-width:480px){
   .nav{padding:14px 0;}
   .nav-right{gap:8px;}
-  .logo{font-size:13px;}
+  .logo{font-size:13px; padding-left:6px;}
   .nav-right .btn-primary{
     padding:7px 10px;
     font-size:11px;
