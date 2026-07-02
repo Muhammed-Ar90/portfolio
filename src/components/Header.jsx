@@ -47,6 +47,11 @@ export default function Header() {
                 <a href={l.href} onClick={() => setOpen(false)}>{l.label}</a>
               </li>
             ))}
+            <li>
+              <a href={profile.resumeUrl} download onClick={() => setOpen(false)}>
+                Resume ↓
+              </a>
+            </li>
           </ul>
         </div>
       )}
